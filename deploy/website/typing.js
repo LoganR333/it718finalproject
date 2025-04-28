@@ -43,15 +43,3 @@ const words = ["car", "broom", "apple", "key", "mouse", "idea"];
         inputField.addEventListener('input', checkInput);
 
         displayNextWord();
-        
-// // Logout the user
-// function logout() {
-//     googleAuth2.signOut().then(function () {
-//         console.log('User signed out.');
-//         window.location.href = '/index.html'; // Redirect to the homepage
-//     });
-// }
-
-// document.getElementById('logoutBtn').addEventListener('click', function () {
-//     logout();
-// });
